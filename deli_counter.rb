@@ -19,5 +19,8 @@ end
 def now_serving(customers)
   if customers == []
     puts "There is nobody waiting to be served!"
+  else
+    customers.shift
+    customers
   end
 end
