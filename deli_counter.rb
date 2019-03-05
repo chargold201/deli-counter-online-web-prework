@@ -10,8 +10,9 @@ def line(customers)
   end
 end
 
-def take_a_number
-
+def take_a_number(customers, name)
+  if customers == []
+    puts "Welcome, #{name}. You are number 1 in line."
 end
 
 def now_serving
