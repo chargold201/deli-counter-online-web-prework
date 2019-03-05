@@ -13,6 +13,7 @@ end
 def take_a_number(customers, name)
   if customers == []
     puts "Welcome, #{name}. You are number 1 in line."
+  end
 end
 
 def now_serving
