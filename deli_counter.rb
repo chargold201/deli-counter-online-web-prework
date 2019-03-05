@@ -2,9 +2,9 @@ def line(customers)
   if customers == []
     puts "The line is currently empty."
   else
-    puts "The line is currently: "
-    customers.map.with_index do |name, index|
-      puts "#{index+1}. #{name}"
+    string = ""
+    customers.each_with_index do |name, index|
+      string = string + " " + "#{index+1}. #{name}"
     end
   end
 end
