@@ -1,6 +1,7 @@
 def line(customers)
   if customers == [] do
     puts "The line is currently empty."
+  else
   end
 end
 
