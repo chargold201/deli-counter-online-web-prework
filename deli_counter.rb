@@ -16,6 +16,7 @@ def take_a_number(customers, name)
   puts "Welcome, #{name}. You are number #{position} in line."
 end
 
-def now_serving
-
+def now_serving(customers)
+  if customers == []
+    puts "The line is curently empty."
 end
