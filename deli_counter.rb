@@ -6,7 +6,7 @@ def line(customers)
     customers.each_with_index do |name, index|
       string = string + " " + "#{index+1}. #{name}"
     end
-    puts "The line is currently: " + string
+    puts "The line is currently:" + string
   end
 end
 
