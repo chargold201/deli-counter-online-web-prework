@@ -4,7 +4,7 @@ def line(customers)
   else
     line_string = ""
     customers.each_with_index do |name, index|
-      line_string = line_string + " " + "#{index+1}. #{name}"
+      line_string += " " + "#{index+1}. #{name}"
     end
     puts "The line is currently:" + line_string
   end
