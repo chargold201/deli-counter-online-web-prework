@@ -2,11 +2,11 @@ def line(customers)
   if customers == []
     puts "The line is currently empty."
   else
-    string = ""
+    line_string = ""
     customers.each_with_index do |name, index|
-      string = string + " " + "#{index+1}. #{name}"
+      line_string = line_string + " " + "#{index+1}. #{name}"
     end
-    puts "The line is currently:" + string
+    puts "The line is currently:" + line_string
   end
 end
 
