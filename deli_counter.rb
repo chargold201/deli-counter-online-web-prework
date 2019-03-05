@@ -19,4 +19,5 @@ end
 def now_serving(customers)
   if customers == []
     puts "The line is curently empty."
+  end
 end
