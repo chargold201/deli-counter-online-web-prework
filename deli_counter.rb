@@ -13,7 +13,7 @@ end
 def take_a_number(customers, name)
   customers << name
   position = customers.index(name)+1
-  puts "Welcome, #{name}. You are number #{position}"
+  puts "Welcome, #{name}. You are number #{position} in line."
 end
 
 def now_serving
